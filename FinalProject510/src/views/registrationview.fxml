@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane minHeight="370.0" minWidth="365.0" prefHeight="272.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RegistrationController">
+  <children>
+    <StackPane>
+      <children>
+        <VBox spacing="10.0">
+          <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="718.0" text="Please, fill the following form in order to register in the system." />
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="148.0" minWidth="10.0" prefWidth="109.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="228.0" minWidth="10.0" prefWidth="189.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                           <effect>
+                              <Bloom />
+                           </effect>
+                  </GridPane>
+                     </children>
+                  </HBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <GridPane>
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Username" />
+                              <TextField fx:id="username" alignment="CENTER" prefHeight="27.0" prefWidth="180.0" GridPane.columnIndex="1" />
+                              <Label text="Password" GridPane.rowIndex="3" />
+                              <TextField fx:id="password" alignment="CENTER" prefHeight="27.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label text="Name" GridPane.rowIndex="6" />
+                              <TextField fx:id="name" alignment="CENTER" prefHeight="27.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <Label text="Address" GridPane.rowIndex="12" />
+                              <TextField fx:id="address" alignment="CENTER" prefHeight="27.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                              <Label text="Email" GridPane.rowIndex="15" />
+                              <TextField fx:id="email" alignment="CENTER" prefHeight="27.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                              <Label text="UserType" GridPane.rowIndex="9" />
+                              <ChoiceBox fx:id="usertype" prefWidth="150.0" value="Select type of user" GridPane.columnIndex="1" GridPane.rowIndex="9">
+    							<items>
+        							<FXCollections fx:factory="observableArrayList">
+            							<String fx:value="Admin" />
+            							<String fx:value="Regular User" />
+            							<String fx:value="Semipremium User" />
+            							<String fx:value="Premium User" />
+            							<String fx:value="Select type of user" />
+        							</FXCollections>
+    							</items>
+								</ChoiceBox>
+                              <Label text="PhoneNumber" GridPane.rowIndex="18" />
+                              <TextField fx:id="phonenumber" alignment="CENTER" prefHeight="27.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="18" />
+                              <Label text="Payment_Methods" GridPane.rowIndex="21" />
+                              <ChoiceBox fx:id="paymentmethods" prefWidth="150.0" value="Select default payment method" GridPane.columnIndex="1" GridPane.rowIndex="21">
+    							<items>
+        							<FXCollections fx:factory="observableArrayList">
+            							<String fx:value="Credit Card" />
+            							<String fx:value="Paypal" />
+            							<String fx:value="Apple Pay" />
+            							<String fx:value="Select default payment method" />
+        							</FXCollections>
+    							</items>
+								</ChoiceBox>
+                           </children>
+                        </GridPane>
+                        <Label id="registrationInfoLabel" fx:id="registrationInfoLabel" text="           " textFill="RED" />
+                     </children>
+                  </VBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <FlowPane prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                <Button id="backButton" fx:id="backButton" alignment="CENTER" defaultButton="true" mnemonicParsing="false" text="Close" />
+                        <Button id="continueButton" fx:id="continueButton" alignment="CENTER_RIGHT" mnemonicParsing="false" text="Continue" />
+                     </children>
+                  </HBox>
+          </children>
+        </VBox>
+      </children>
+    </StackPane>
+  </children>
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+  </padding>
+</StackPane>
