@@ -21,5 +21,5 @@ The application makes use of 5 tables on the database, performing all the needed
 - f_rois_orders2: each of the registers on this table shows the orders made and the user that made them. Each includes a list of the product ids that are in the order.
 
 - Programmer: Francisco Rois Siso
-- Date: 04/27/2017
+- Date: 04/27/2017 
 - Source File Name: Login.java
